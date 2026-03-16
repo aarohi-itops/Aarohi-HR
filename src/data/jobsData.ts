@@ -3,6 +3,8 @@ import ad20 from "@/assets/Jobs/ad20.jpg";
 import ad21 from "@/assets/Jobs/ad21.jpg";
 import ad22 from "@/assets/Jobs/ad22.jpg";
 import ad23 from "@/assets/Jobs/ad23.jpg";
+import ad24 from "@/assets/Jobs/ad24.jpg";
+
 // import ad1 from "@/assets/Jobs/ad1.png";
 // import ad10 from "@/assets/Jobs/ad10.jpeg";
 // import ad11 from "@/assets/Jobs/ad11.jpeg";
@@ -40,6 +42,49 @@ export interface Job {
 }
 
 const jobsData: Job[] = [
+    {
+    id: 33,
+    company: "Mayasa Al Oud For Party Preparation",
+    location: "Qatar",
+    salary: "QAR 1400-3000",
+    title: "Waiter/Coffee Cook/Supervisor",
+    type: "Full-time",
+    employees: "5 employees",
+    imageUrl: ad24,
+    description:
+      "We are seeking motivated workers to join Mayasa Al Oud For Party Preparation in Qatar. Available positions include waiter, coffee cook, and supervisor. Candidates should be hardworking, disciplined, and ready to perform service and kitchen duties as assigned.",
+    responsibilities: [
+      "Perform cleaning, service, and kitchen duties as per company requirements",
+      "Follow safety and hygiene protocols at all times",
+      "Work 8 hours daily, 6 days per week",
+      "Complete tasks efficiently as instructed by supervisors",
+      "Be available for overtime as required",
+    ],
+    requirements: [
+      "Minimum qualification: Literate",
+      "Physically fit and willing to work abroad",
+      "Relevant similar experience preferred",
+    ],
+    PerksAndBenefits: [
+      "Monthly Salary: QAR 1400-3000 (Approx. NPR 54,111-117,933)",
+      "Overtime: As per company rules",
+      "LT No.: 334155",
+      "Working Hours: 8 hours/day, 6 days/week",
+      "Weekly Holiday: 1 day",
+      "Contract Period: 2 years (renewable)",
+      "Accommodation: Provided by company",
+      "Food/Food Allowance: Provided by company",
+      "Transportation: Provided by company",
+      "Medical Care: Provided by company",
+      "Insurance: Provided by company",
+      "Joining & Return Ticket: Provided by company",
+      "Interview Date: 23rd March 2026 - Aarohi HR Solutions Pvt. Ltd., Basundhara, Kathmandu, Nepal",
+      "Contact: Phone: 01-4961807, 4962925; Mobile: 9851067941, 9801081902; Email: info@aarohihrsolutions.com; Website: www.aarohihrsolutions.com",
+      "Branch Office (Chitwan): 056-514109, 9802899323, 9865121710",
+      "Government License No.: 1244/074/075",
+    ],
+  },
+
     {
     id: 28,
     company: "STALAGMITE MANPOWER SERVICES LTD",

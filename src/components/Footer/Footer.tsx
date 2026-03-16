@@ -41,7 +41,7 @@ const socialLinks = [
   },
   {
     icon: PiTiktokLogo,
-    href: "https://www.tiktok.com/@aarohi_hr_solutions?_t=ZS-8wLKMJvdIoh&_r=1",
+    href: "https://www.tiktok.com/@aarohi.hr.solutio8",
     ariaLabel: "Tiktok",
   },
 ];
