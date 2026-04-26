@@ -4,6 +4,7 @@ import ad21 from "@/assets/Jobs/ad21.jpg";
 import ad22 from "@/assets/Jobs/ad22.jpg";
 import ad23 from "@/assets/Jobs/ad23.jpg";
 import ad24 from "@/assets/Jobs/ad24.jpg";
+import ad25 from "@/assets/Jobs/ad25.jpg";
 
 // import ad1 from "@/assets/Jobs/ad1.png";
 // import ad10 from "@/assets/Jobs/ad10.jpeg";
@@ -42,7 +43,42 @@ export interface Job {
 }
 
 const jobsData: Job[] = [
+  
     {
+    id: 36,
+    company: "Job Opportunities in Cyprus",
+    location: "CYPRUS, LIMASSOL, LARNACA & PAPHOS",
+    salary: "€700-1000",
+    title: "Employee",
+    type: "Full-time",
+    employees: "22 males, 48 females (70 total)",
+    imageUrl: ad25,
+    description:
+      "Multiple companies are recruiting employees for positions in Cyprus. This is an excellent opportunity for individuals seeking employment in Cyprus. Salary: €700 per month. Application deadline: 04 May 2026.",
+    responsibilities: [
+      "Perform assigned duties as per position requirements",
+      "Maintain professional standards",
+      "Contribute to team objectives",
+      "Follow company policies and procedures",
+      "Ensure high quality of work",
+    ],
+    requirements: [
+      "Reliability and trustworthiness",
+      "Good work ethic and attention to detail",
+      "Ability to work in a team environment",
+      "Professional demeanor",
+    ],
+    PerksAndBenefits: [
+      "Monthly salary: €700-1000",
+      "Employment in Cyprus",
+      "Stable employment contract",
+      "Professional work environment",
+      "LT. No.: 335899",
+      "Application deadline: 04 May 2026",
+    ],
+  },
+  
+  {
     id: 33,
     company: "Mayasa Al Oud For Party Preparation",
     location: "Qatar",
