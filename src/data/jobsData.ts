@@ -5,6 +5,7 @@ import ad22 from "@/assets/Jobs/ad22.jpg";
 import ad23 from "@/assets/Jobs/ad23.jpg";
 import ad24 from "@/assets/Jobs/ad24.jpg";
 import ad25 from "@/assets/Jobs/ad25.jpg";
+import ad26 from "@/assets/Jobs/ad26.jpg";
 
 // import ad1 from "@/assets/Jobs/ad1.png";
 // import ad10 from "@/assets/Jobs/ad10.jpeg";
@@ -44,6 +45,40 @@ export interface Job {
 
 const jobsData: Job[] = [
   
+      {
+    id: 37,
+    company: "Life Style for Cleaning & Maintenance",
+    location: "Doha, Qatar",
+    salary: "QAR 1000-2000",
+    title: "Employee",
+    type: "Full-time",
+    employees: "17 males, 4 females (21 total)",
+    imageUrl: ad26,
+    description:
+      "Life Style for Cleaning & Maintenance is recruiting Driver & Cleaner in Doha, Qatar. This is an excellent opportunity for individuals seeking employment in Doha, Qatar. Salary: QAR 1000-2000 per month. Application deadline: 15 May 2026.",
+    responsibilities: [
+      "Perform assigned duties as per position requirements",
+      "Maintain professional standards",
+      "Contribute to team objectives",
+      "Follow company policies and procedures",
+      "Ensure high quality of work",
+    ],
+    requirements: [
+      "Reliability and trustworthiness",
+      "Good work ethic and attention to detail",
+      "Ability to work in a team environment",
+      "Professional demeanor",
+    ],
+    PerksAndBenefits: [
+      "Monthly salary: QAR 1000-2000",
+      "Employment in Doha, Qatar",
+      "Stable employment contract",
+      "Professional work environment",
+      "LT. No.: 331592",
+      "Application deadline: 15 May 2026",
+    ],
+  },
+
     {
     id: 36,
     company: "Job Opportunities in Cyprus",
