@@ -6,6 +6,8 @@ import ad23 from "@/assets/Jobs/ad23.jpg";
 import ad24 from "@/assets/Jobs/ad24.jpg";
 import ad25 from "@/assets/Jobs/ad25.jpg";
 import ad26 from "@/assets/Jobs/ad26.jpg";
+import ad27 from "@/assets/Jobs/ad27.jpg";
+
 
 // import ad1 from "@/assets/Jobs/ad1.png";
 // import ad10 from "@/assets/Jobs/ad10.jpeg";
@@ -44,6 +46,40 @@ export interface Job {
 }
 
 const jobsData: Job[] = [
+
+  {
+    id: 38,
+    company: "AL LEBNANYA AL SHAMELA SERVICE COMPANY",
+    location: "Qatar",
+    salary: "QAR 1000",
+    title: "Employee",
+    type: "Full-time",
+    employees: "10 males, 6 females (16 total)",
+    imageUrl: ad27,
+    description:
+      "AL LEBNANYA AL SHAMELA SERVICE COMPANY is recruiting Labourer & Cleaner in Qatar. This is an excellent opportunity for individuals seeking employment in Qatar. Salary: QAR 1000 per month. Application deadline: 23 May 2026.",
+    responsibilities: [
+      "Perform assigned duties as per position requirements",
+      "Maintain professional standards",
+      "Contribute to team objectives",
+      "Follow company policies and procedures",
+      "Ensure high quality of work",
+    ],
+    requirements: [
+      "Reliability and trustworthiness",
+      "Good work ethic and attention to detail",
+      "Ability to work in a team environment",
+      "Professional demeanor",
+    ],
+    PerksAndBenefits: [
+      "Monthly salary: QAR 1000",
+      "Employment in Qatar",
+      "Stable employment contract",
+      "Professional work environment",
+      "LT. No.: 337842",
+      "Application deadline: 23 May 2026",
+    ],
+  },
   
       {
     id: 37,
