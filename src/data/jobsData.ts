@@ -50,7 +50,7 @@ export interface Job {
 const jobsData: Job[] = [
 
 {
-    id: 38,
+    id: 39,
     company: "SAFE FORCE SDN. BHD",
     location: "Malaysia",
     salary: "RM 1700",
