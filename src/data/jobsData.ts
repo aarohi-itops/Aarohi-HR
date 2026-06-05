@@ -7,6 +7,8 @@ import ad24 from "@/assets/Jobs/ad24.jpg";
 import ad25 from "@/assets/Jobs/ad25.jpg";
 import ad26 from "@/assets/Jobs/ad26.jpg";
 import ad27 from "@/assets/Jobs/ad27.jpg";
+import ad28 from "@/assets/Jobs/ad28.jpg";
+
 
 
 // import ad1 from "@/assets/Jobs/ad1.png";
@@ -46,6 +48,40 @@ export interface Job {
 }
 
 const jobsData: Job[] = [
+
+{
+    id: 38,
+    company: "SAFE FORCE SDN. BHD",
+    location: "Malaysia",
+    salary: "RM 1700",
+    title: "Employee",
+    type: "Full-time",
+    employees: "36 males, 0 females (36 total)",
+    imageUrl: ad28,
+    description:
+      "SAFE FORCE SDN. BHD is recruiting Security Guards in Malaysia. This is an excellent opportunity for individuals seeking employment in Malaysia. Salary: RM 1700 per month. Application deadline: 13 June 2026.",
+    responsibilities: [
+      "Perform assigned duties as per position requirements",
+      "Maintain professional standards",
+      "Contribute to team objectives",
+      "Follow company policies and procedures",
+      "Ensure high quality of work",
+    ],
+    requirements: [
+      "Reliability and trustworthiness",
+      "Good work ethic and attention to detail",
+      "Ability to work in a team environment",
+      "Professional demeanor",
+    ],
+    PerksAndBenefits: [
+      "Monthly salary: RM 1700",
+      "Employment in Malaysia",
+      "Stable employment contract",
+      "Professional work environment",
+      "LT. No.: 331815",
+      "Application deadline: 13 June 2026",
+    ],
+  },
 
   {
     id: 38,
