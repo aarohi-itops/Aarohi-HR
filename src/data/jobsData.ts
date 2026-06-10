@@ -8,6 +8,8 @@ import ad25 from "@/assets/Jobs/ad25.jpg";
 import ad26 from "@/assets/Jobs/ad26.jpg";
 import ad27 from "@/assets/Jobs/ad27.jpg";
 import ad28 from "@/assets/Jobs/ad28.jpg";
+import ad29 from "@/assets/Jobs/ad29.jpg";
+
 
 
 
@@ -48,6 +50,40 @@ export interface Job {
 }
 
 const jobsData: Job[] = [
+
+{
+    id: 40,
+    company: " THE DIPLOMATIC CLUB / AL-MASYH LLDYAFH WALTNZYF",
+    location: "Qatar",
+    salary: "QAR 1000-1400",
+    title: "Employee",
+    type: "Full-time",
+    employees: "24 males, 14 females (38 total)",
+    imageUrl: ad29,
+    description:
+      "THE DIPLOMATIC CLUB / AL-MASYH LLDYAFH WALTNZYF is recruiting waiter in Qatar. This is an excellent opportunity for individuals seeking employment in Qatar. Salary: QAR 1000-1400 per month. Application deadline: 18 June 2026.",
+    responsibilities: [
+      "Perform assigned duties as per position requirements",
+      "Maintain professional standards",
+      "Contribute to team objectives",
+      "Follow company policies and procedures",
+      "Ensure high quality of work",
+    ],
+    requirements: [
+      "Reliability and trustworthiness",
+      "Good work ethic and attention to detail",
+      "Ability to work in a team environment",
+      "Professional demeanor",
+    ],
+    PerksAndBenefits: [
+      "Monthly salary: QAR 1000-1400",
+      "Employment in Qatar",
+      "Stable employment contract",
+      "Professional work environment",
+      "LT. No.: 338754/338328",
+      "Application deadline: 18 June 2026",
+    ],
+  },
 
 {
     id: 39,
