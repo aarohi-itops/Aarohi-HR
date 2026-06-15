@@ -10,9 +10,7 @@ import ad27 from "@/assets/Jobs/ad27.jpg";
 import ad28 from "@/assets/Jobs/ad28.jpg";
 import ad29 from "@/assets/Jobs/ad29.jpg";
 import ad30 from "@/assets/Jobs/ad30.jpg";
-
-
-
+import ad31 from "@/assets/Jobs/ad31.jpg";
 
 
 // import ad1 from "@/assets/Jobs/ad1.png";
@@ -52,6 +50,40 @@ export interface Job {
 }
 
 const jobsData: Job[] = [
+
+{
+    id: 42,
+    company: "MODERN CREATIVE PROJECTS TRADING LLC",
+    location: "OMAN",
+    salary: "OMR 150-200",
+    title: "Employee",
+    type: "Full-time",
+    employees: "17 males, 0 females (17 total)",
+    imageUrl: ad31,
+    description:
+      "MODERN CREATIVE PROJECTS TRADING LLC is recruiting employee in Oman. This is an excellent opportunity for individuals seeking employment in Oman. Salary: OMR 150-200 per month. Application deadline: 23 June 2026.",
+    responsibilities: [
+      "Perform assigned duties as per position requirements",
+      "Maintain professional standards",
+      "Contribute to team objectives",
+      "Follow company policies and procedures",
+      "Ensure high quality of work",
+    ],
+    requirements: [
+      "Reliability and trustworthiness",
+      "Good work ethic and attention to detail",
+      "Ability to work in a team environment",
+      "Professional demeanor",
+    ],
+    PerksAndBenefits: [
+      "Monthly salary: OMR 150-200",
+      "Employment in Oman",
+      "Stable employment contract",
+      "Professional work environment",
+      "LT. No.: 308680/330164",
+      "Application deadline: 23 June 2026",
+    ],
+  },
 
 {
     id: 41,
