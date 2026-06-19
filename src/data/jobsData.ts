@@ -11,6 +11,8 @@ import ad28 from "@/assets/Jobs/ad28.jpg";
 import ad29 from "@/assets/Jobs/ad29.jpg";
 import ad30 from "@/assets/Jobs/ad30.jpg";
 import ad31 from "@/assets/Jobs/ad31.jpg";
+import ad32 from "@/assets/Jobs/ad32.jpg";
+
 
 
 // import ad1 from "@/assets/Jobs/ad1.png";
@@ -50,6 +52,40 @@ export interface Job {
 }
 
 const jobsData: Job[] = [
+
+  {
+    id: 43,
+    company: "MAVROMATIS EMPLOYMENT BUREAU LTD",
+    location: "LARNACA, CYPRUS",
+    salary: "Euro 700",
+    title: "Employee",
+    type: "Full-time",
+    employees: "0 males, 10 females (10 total)",
+    imageUrl: ad32,
+    description:
+      "MAVROMATIS EMPLOYMENT BUREAU LTD is recruiting employee in Larnaca, Cyprus. This is an excellent opportunity for individuals seeking employment in Cyprus. Salary: Euro 700 per month. Application deadline: 27 June 2026.",
+    responsibilities: [
+      "Perform assigned duties as per position requirements",
+      "Maintain professional standards",
+      "Contribute to team objectives",
+      "Follow company policies and procedures",
+      "Ensure high quality of work",
+    ],
+    requirements: [
+      "Reliability and trustworthiness",
+      "Good work ethic and attention to detail",
+      "Ability to work in a team environment",
+      "Professional demeanor",
+    ],
+    PerksAndBenefits: [
+      "Monthly salary: Euro 700",
+      "Employment in Cyprus",
+      "Stable employment contract",
+      "Professional work environment",
+      "LT. No.: 328225",
+      "Application deadline: 27 June 2026",
+    ],
+  },
 
 {
     id: 42,
