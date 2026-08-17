@@ -11,7 +11,9 @@
 // import ad29 from "@/assets/Jobs/ad29.jpg";
 // import ad30 from "@/assets/Jobs/ad30.jpg";
 // import ad31 from "@/assets/Jobs/ad31.jpg";
-import ad32 from "@/assets/Jobs/ad32.jpg";
+// import ad32 from "@/assets/Jobs/ad32.jpg";
+import ad33 from "@/assets/Jobs/ad33.jpg";
+
 
 
 
@@ -54,16 +56,16 @@ export interface Job {
 const jobsData: Job[] = [
 
   {
-    id: 43,
-    company: "MAVROMATIS EMPLOYMENT BUREAU LTD",
+    id: 44,
+    company: "MAVROMATIS EMPLOYMENT BUREAU LTD | STALAGMITE MANPOWER SERVICES LTD",
     location: "LARNACA, CYPRUS",
-    salary: "Euro 700",
+    salary: "Euro 400-1000",
     title: "Employee",
     type: "Full-time",
-    employees: "0 males, 10 females (10 total)",
-    imageUrl: ad32,
+    employees: "17 males, 33 females (50 total)",
+    imageUrl: ad33,
     description:
-      "MAVROMATIS EMPLOYMENT BUREAU LTD is recruiting employee in Larnaca, Cyprus. This is an excellent opportunity for individuals seeking employment in Cyprus. Salary: Euro 700 per month. Application deadline: 27 June 2026.",
+      "MAVROMATIS EMPLOYMENT BUREAU LTD | STALAGMITE MANPOWER SERVICES LTD is recruiting employee in Larnaca, Cyprus. This is an excellent opportunity for individuals seeking employment in Cyprus. Salary: Euro 400-1000 per month. Application deadline: 25 August 2026.",
     responsibilities: [
       "Perform assigned duties as per position requirements",
       "Maintain professional standards",
@@ -78,14 +80,48 @@ const jobsData: Job[] = [
       "Professional demeanor",
     ],
     PerksAndBenefits: [
-      "Monthly salary: Euro 700",
+      "Monthly salary: Euro 400-1000",
       "Employment in Cyprus",
       "Stable employment contract",
       "Professional work environment",
-      "LT. No.: 328225",
-      "Application deadline: 27 June 2026",
+      "LT. No.: 335996,340673,340672",
+      "Application deadline: 25 August 2026",
     ],
   },
+
+  // {
+  //   id: 43,
+  //   company: "MAVROMATIS EMPLOYMENT BUREAU LTD",
+  //   location: "LARNACA, CYPRUS",
+  //   salary: "Euro 700",
+  //   title: "Employee",
+  //   type: "Full-time",
+  //   employees: "0 males, 10 females (10 total)",
+  //   imageUrl: ad32,
+  //   description:
+  //     "MAVROMATIS EMPLOYMENT BUREAU LTD is recruiting employee in Larnaca, Cyprus. This is an excellent opportunity for individuals seeking employment in Cyprus. Salary: Euro 700 per month. Application deadline: 27 June 2026.",
+  //   responsibilities: [
+  //     "Perform assigned duties as per position requirements",
+  //     "Maintain professional standards",
+  //     "Contribute to team objectives",
+  //     "Follow company policies and procedures",
+  //     "Ensure high quality of work",
+  //   ],
+  //   requirements: [
+  //     "Reliability and trustworthiness",
+  //     "Good work ethic and attention to detail",
+  //     "Ability to work in a team environment",
+  //     "Professional demeanor",
+  //   ],
+  //   PerksAndBenefits: [
+  //     "Monthly salary: Euro 700",
+  //     "Employment in Cyprus",
+  //     "Stable employment contract",
+  //     "Professional work environment",
+  //     "LT. No.: 328225",
+  //     "Application deadline: 27 June 2026",
+  //   ],
+  // },
 
 // {
 //     id: 42,
