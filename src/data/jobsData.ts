@@ -13,6 +13,8 @@
 // import ad31 from "@/assets/Jobs/ad31.jpg";
 // import ad32 from "@/assets/Jobs/ad32.jpg";
 import ad33 from "@/assets/Jobs/ad33.jpg";
+import ad34 from "@/assets/Jobs/ad34.jpg";
+
 
 
 
@@ -54,6 +56,41 @@ export interface Job {
 }
 
 const jobsData: Job[] = [
+
+
+  {
+    id: 45,
+    company: "LIFE STYLE FOR CLEANING & MAINTENANCE",
+    location: "Doha, Qatar",
+    salary: "QAR 2000",
+    title: "Employee",
+    type: "Full-time",
+    employees: "5 males, 0 females (5 total)",
+    imageUrl: ad34,
+    description:
+      "LIFE STYLE FOR CLEANING & MAINTENANCE is recruiting employee in Doha, Qatar. This is an excellent opportunity for individuals seeking employment in Qatar. Salary: QAR 2000 per month. Application deadline: 28 August 2026.",
+    responsibilities: [
+      "Perform assigned duties as per position requirements",
+      "Maintain professional standards",
+      "Contribute to team objectives",
+      "Follow company policies and procedures",
+      "Ensure high quality of work",
+    ],
+    requirements: [
+      "Reliability and trustworthiness",
+      "Good work ethic and attention to detail",
+      "Ability to work in a team environment",
+      "Professional demeanor",
+    ],
+    PerksAndBenefits: [
+      "Monthly salary: QAR 2000",
+      "Employment in Qatar",
+      "Stable employment contract",
+      "Professional work environment",
+      "LT. No.: 331592",
+      "Application deadline: 28 August 2026",
+    ],
+  },
 
   {
     id: 44,
