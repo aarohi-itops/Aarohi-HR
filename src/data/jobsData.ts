@@ -12,12 +12,10 @@
 // import ad30 from "@/assets/Jobs/ad30.jpg";
 // import ad31 from "@/assets/Jobs/ad31.jpg";
 // import ad32 from "@/assets/Jobs/ad32.jpg";
+
 import ad33 from "@/assets/Jobs/ad33.jpg";
 import ad34 from "@/assets/Jobs/ad34.jpg";
-
-
-
-
+import ad35 from "@/assets/Jobs/ad35.jpg";
 
 // import ad1 from "@/assets/Jobs/ad1.png";
 // import ad10 from "@/assets/Jobs/ad10.jpeg";
@@ -56,7 +54,39 @@ export interface Job {
 }
 
 const jobsData: Job[] = [
-
+{
+    id: 46,
+    company: "AL LEBNANYA AL SHAMELA SERVICE COMPANY",
+    location: "Qatar",
+    salary: "QAR 1000",
+    title: "Employee",
+    type: "Full-time",
+    employees: "1 male, 12 females (13 total)",
+    imageUrl: ad35,
+    description:
+      "AL LEBNANYA AL SHAMELA SERVICE COMPANY is recruiting employee in Qatar. This is an excellent opportunity for individuals seeking employment in Qatar. Salary: QAR 1000 per month. Application deadline: 2 September 2026.",
+    responsibilities: [
+      "Perform assigned duties as per position requirements",
+      "Maintain professional standards",
+      "Contribute to team objectives",
+      "Follow company policies and procedures",
+      "Ensure high quality of work",
+    ],
+    requirements: [
+      "Reliability and trustworthiness",
+      "Good work ethic and attention to detail",
+      "Ability to work in a team environment",
+      "Professional demeanor",
+    ],
+    PerksAndBenefits: [
+      "Monthly salary: QAR 1000",
+      "Employment in Qatar",
+      "Stable employment contract",
+      "Professional work environment",
+      "LT. No.: 337842",
+      "Application deadline: 2 September 2026",
+    ],
+  },
 
   {
     id: 45,
