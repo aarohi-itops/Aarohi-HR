@@ -16,6 +16,7 @@
 import ad33 from "@/assets/Jobs/ad33.jpg";
 import ad34 from "@/assets/Jobs/ad34.jpg";
 import ad35 from "@/assets/Jobs/ad35.jpg";
+import ad36 from "@/assets/Jobs/ad36.jpg";
 
 // import ad1 from "@/assets/Jobs/ad1.png";
 // import ad10 from "@/assets/Jobs/ad10.jpeg";
@@ -54,6 +55,40 @@ export interface Job {
 }
 
 const jobsData: Job[] = [
+{
+    id: 47,
+    company: "ALSARH RECRUITMENT SOLE PROPRIETORSHIP L.L.C | SAFE FORCE SDN. BHD",
+    location: "UAE & Malaysia",
+    salary: "AED 1000 | 1700 RM",
+    title: "Employee",
+    type: "Full-time",
+    employees: "236 male, 0 females (236 total)",
+    imageUrl: ad36,
+    description:
+      "ALSARH RECRUITMENT SOLE PROPRIETORSHIP L.L.C | SAFE FORCE SDN. BHD is recruiting employee in UAE & Malaysia. This is an excellent opportunity for individuals seeking employment in UAE & Malaysia. Salary: AED 1000 | 1700 RM per month. Application deadline: 16 September 2026.",
+    responsibilities: [
+      "Perform assigned duties as per position requirements",
+      "Maintain professional standards",
+      "Contribute to team objectives",
+      "Follow company policies and procedures",
+      "Ensure high quality of work",
+    ],
+    requirements: [
+      "Reliability and trustworthiness",
+      "Good work ethic and attention to detail",
+      "Ability to work in a team environment",
+      "Professional demeanor",
+    ],
+    PerksAndBenefits: [
+      "Monthly salary: AED 1000 | 1700 RM",
+      "Employment in UAE & Malaysia",
+      "Stable employment contract",
+      "Professional work environment",
+      "LT. No.: 335866,331815",
+      "Application deadline: 16 September 2026",
+    ],
+  },
+
 {
     id: 46,
     company: "AL LEBNANYA AL SHAMELA SERVICE COMPANY",
