@@ -17,6 +17,7 @@ import ad33 from "@/assets/Jobs/ad33.jpg";
 import ad34 from "@/assets/Jobs/ad34.jpg";
 import ad35 from "@/assets/Jobs/ad35.jpg";
 import ad36 from "@/assets/Jobs/ad36.jpg";
+import ad37 from "@/assets/Jobs/ad37.jpg";
 
 // import ad1 from "@/assets/Jobs/ad1.png";
 // import ad10 from "@/assets/Jobs/ad10.jpeg";
@@ -55,6 +56,18 @@ export interface Job {
 }
 
 const jobsData: Job[] = [
+
+  {
+    id: 48,
+    company: "Result of ALSARH RECRUITMENT SOLE PROPRIETORSHIP L.L.C | SAFE FORCE SDN. BHD",
+    location: "UAE & Malaysia",
+    salary: "AED 1000 | 1700 RM",
+    title: "Employee",
+    type: "Full-time",
+    employees: "236 male, 0 females (236 total)",
+    imageUrl: ad37,
+  },
+
 {
     id: 47,
     company: "ALSARH RECRUITMENT SOLE PROPRIETORSHIP L.L.C | SAFE FORCE SDN. BHD",
