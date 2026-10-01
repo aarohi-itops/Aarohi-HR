@@ -19,6 +19,8 @@ import ad35 from "@/assets/Jobs/ad35.jpg";
 import ad36 from "@/assets/Jobs/ad36.jpg";
 import ad37 from "@/assets/Jobs/ad37.jpg";
 import ad38 from "@/assets/Jobs/ad38.jpg";
+import ad39 from "@/assets/Jobs/ad39.jpg";
+
 
 // import ad1 from "@/assets/Jobs/ad1.png";
 // import ad10 from "@/assets/Jobs/ad10.jpeg";
@@ -57,6 +59,17 @@ export interface Job {
 }
 
 const jobsData: Job[] = [
+
+    {
+    id: 50,
+    company: "Result of ASPIRE MANAGEMENT CONSULTING",
+    location: "Doha, Qatar",
+    salary: "2000-5700 QAR",
+    title: "Employee",
+    type: "Full-time",
+    employees: "02 male, 03 females (05 total)",
+    imageUrl: ad39,
+  },
 
   {
     id: 49,
