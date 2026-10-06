@@ -20,6 +20,8 @@ import ad36 from "@/assets/Jobs/ad36.jpg";
 import ad37 from "@/assets/Jobs/ad37.jpg";
 import ad38 from "@/assets/Jobs/ad38.jpg";
 import ad39 from "@/assets/Jobs/ad39.jpg";
+import ad40 from "@/assets/Jobs/ad40.jpg";
+import ad41 from "@/assets/Jobs/ad41.jpg";
 
 
 // import ad1 from "@/assets/Jobs/ad1.png";
@@ -59,6 +61,51 @@ export interface Job {
 }
 
 const jobsData: Job[] = [
+
+    {
+    id: 52,
+    company: "LIFE STYLE FOR CLEANING & MAINTENANCE",
+    location: "Qatar",
+    salary: "QAR 1000",
+    title: "Employee",
+    type: "Full-time",
+    employees: "23 males, 26 females (49 total)",
+    imageUrl: ad41,
+    description:
+      "LIFE STYLE FOR CLEANING & MAINTENANCE is recruiting employee in Qatar. This is an excellent opportunity for individuals seeking employment in Qatar. Salary: QAR 1000 per month. Application deadline: 14 October 2026.",
+    responsibilities: [
+      "Perform assigned duties as per position requirements",
+      "Maintain professional standards",
+      "Contribute to team objectives",
+      "Follow company policies and procedures",
+      "Ensure high quality of work",
+    ],
+    requirements: [
+      "Reliability and trustworthiness",
+      "Good work ethic and attention to detail",
+      "Ability to work in a team environment",
+      "Professional demeanor",
+    ],
+    PerksAndBenefits: [
+      "Monthly salary: QAR 1000",
+      "Employment in Qatar",
+      "Stable employment contract",
+      "Professional work environment",
+      "LT. No.: 343651",
+      "Application deadline: 14 October 2026",
+    ],
+  },
+
+    {
+    id: 51,
+    company: "Result of Al Lebnanya Al Shamela Service Company",
+    location: "Qatar",
+    salary: "QAR 1000",
+    title: "Employee",
+    type: "Full-time",
+    employees: "147 males, 0 females (147 total)",
+    imageUrl: ad40,
+  },
 
     {
     id: 50,
