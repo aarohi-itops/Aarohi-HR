@@ -25,6 +25,8 @@ import ad41 from "@/assets/Jobs/ad41.jpg";
 import ad42 from "@/assets/Jobs/ad42.jpg";
 import ad43 from "@/assets/Jobs/ad43.jpg";
 import ad44 from "@/assets/Jobs/ad44.jpg";
+import ad45 from "@/assets/Jobs/ad45.jpg";
+
 
 
 // import ad1 from "@/assets/Jobs/ad1.png";
@@ -64,6 +66,41 @@ export interface Job {
 }
 
 const jobsData: Job[] = [
+
+
+    {
+    id: 56,
+    company: "Mavromatis Employment Bureau Ltd",
+    location: "Cyprus",
+    salary: "Euro 750-1000",
+    title: "Employee",
+    type: "Full-time",
+    employees: "45 males, 14 females (59 total)",
+    imageUrl: ad45,
+    description:
+      "Mavromatis Employment Bureau Ltd is recruiting employee in Cyprus. This is an excellent opportunity for individuals seeking employment in Cyprus. Salary: Euro 750-1000 per month. Application deadline: 25 November 2026.",
+    responsibilities: [
+      "Perform assigned duties as per position requirements",
+      "Maintain professional standards",
+      "Contribute to team objectives",
+      "Follow company policies and procedures",
+      "Ensure high quality of work",
+    ],
+    requirements: [
+      "Reliability and trustworthiness",
+      "Good work ethic and attention to detail",
+      "Ability to work in a team environment",
+      "Professional demeanor",
+    ],
+    PerksAndBenefits: [
+      "Monthly salary: Euro 750-1000",
+      "Employment in Cyprus",
+      "Stable employment contract",
+      "Professional work environment",
+      "LT. No.: 340673,346896, 346897",
+      "Application deadline: 25 November 2026",
+    ],
+  },
 
     {
     id: 55,
