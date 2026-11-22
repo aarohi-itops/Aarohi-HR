@@ -26,8 +26,7 @@ import ad42 from "@/assets/Jobs/ad42.jpg";
 import ad43 from "@/assets/Jobs/ad43.jpg";
 import ad44 from "@/assets/Jobs/ad44.jpg";
 import ad45 from "@/assets/Jobs/ad45.jpg";
-
-
+import ad46 from "@/assets/Jobs/ad46.jpg";
 
 // import ad1 from "@/assets/Jobs/ad1.png";
 // import ad10 from "@/assets/Jobs/ad10.jpeg";
@@ -67,6 +66,17 @@ export interface Job {
 
 const jobsData: Job[] = [
 
+
+    {
+    id: 57,
+    company: "Result of DIMENSIONS FOR SERVICES",
+    location: "Qatar",
+    salary: "QAR 1000",
+    title: "Employee",
+    type: "Full-time",
+    employees: "8 males, 0 females (8 total)",
+    imageUrl: ad46,
+  },
 
     {
     id: 56,
