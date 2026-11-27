@@ -27,6 +27,7 @@ import ad43 from "@/assets/Jobs/ad43.jpg";
 import ad44 from "@/assets/Jobs/ad44.jpg";
 import ad45 from "@/assets/Jobs/ad45.jpg";
 import ad46 from "@/assets/Jobs/ad46.jpg";
+import ad47 from "@/assets/Jobs/ad47.jpg";
 
 // import ad1 from "@/assets/Jobs/ad1.png";
 // import ad10 from "@/assets/Jobs/ad10.jpeg";
@@ -66,6 +67,16 @@ export interface Job {
 
 const jobsData: Job[] = [
 
+      {
+    id: 58,
+    company: "Result of HELIOPOLIS ELECTRIC TRADING AND CONTRACTING ",
+    location: "Qatar",
+    salary: "QAR 1000",
+    title: "Employee",
+    type: "Full-time",
+    employees: "106 males, 0 females (106 total)",
+    imageUrl: ad47,
+  },
 
     {
     id: 57,
